@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "design-skills": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/Priv8-ai/design-skills-mcp.git",
+        "fastmcp",
+        "run",
+        "server.py:mcp"
+      ],
+      "env": {}
+    }
+  }
+}

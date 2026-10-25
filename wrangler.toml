@@ -1,0 +1,6 @@
+# Cloudflare Pages configuration
+# Build: python3 scripts/build_site.py   (output dir: site/)
+# Or deploy the pre-built site/ directly with `npx wrangler pages deploy site`.
+name = "design-skills"
+compatibility_date = "2026-01-01"
+pages_build_output_dir = "site"

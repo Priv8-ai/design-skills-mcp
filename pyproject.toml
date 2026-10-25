@@ -1,0 +1,19 @@
+[project]
+name = "design-skills-mcp"
+version = "1.0.0"
+description = "MCP server over a curated pack of 254 design/UI/UX/frontend skills + the UIUX Research Atlas"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0,<5",
+]
+
+[project.scripts]
+design-skills-mcp = "server:mcp.run"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["server"]
